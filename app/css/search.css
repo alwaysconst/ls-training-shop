@@ -1,0 +1,48 @@
+.header__search{
+	display: inline-block;
+	float: left;
+	width: 340px;
+	height: 36px;
+	padding: 0 10px;
+}
+/*Задаём стиль инпута*/
+.header__search__input{
+	display: inline-block;
+	float: left;
+	width: 258px;
+	height: 34px;
+	padding:0;
+	border:0;
+	margin: 0;
+	background: #fff;
+	border: 1px solid #dce6f0;
+	border-right: 0;
+	font-family: 'elektra_light_proregular';
+	font-size: 15px;
+	color: #dce6f0;
+}
+
+/*Задаём стиль для плейсхолдера*/
+::-webkit-input-placeholder {color:#dce6f0;}
+::-moz-placeholder          {color:#dce6f0;}/* Firefox 19+ */
+:-moz-placeholder           {color:#dce6f0;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#dce6f0;}
+/*Задаём стиль кнопке*/
+.header__search__button{
+	display: inline-block;
+	float: left;
+	width: 80px;
+	height: 36px;
+	padding:0;
+	border:0;
+	margin: 0;
+	font-family: 'elektra_light_probold';
+	font-size: 17px;
+	color: #fff;
+	background: #00b9fe;
+	border: 0;
+}
+.header__search__button:hover{
+	background: #33c8ff;
+	cursor: pointer;
+}

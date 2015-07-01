@@ -1,0 +1,9 @@
+.footer {
+	min-width: 1000px;
+	height: 228px;
+	margin-top: -228px;	
+	background:#613993 url(../img/footer-bg.png);
+	position: relative;
+	font-family: '';
+	font-size: 13px;
+}

@@ -1,0 +1,33 @@
+body, html{
+    height:100%;
+    margin: 0 auto;
+}
+html {
+    overflow-y:scroll;
+}
+.page__wrapper {
+	min-height:100%;
+	min-width: 1000px;
+	height:auto!important;
+    overflow:hidden;
+}
+.page__wrapper:after {
+	content: "";
+	height: 228px;
+	display: block;
+}
+.wrapper {
+	min-width: 1000px;
+}
+.container{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.container:before, .clearfix:before,
+.container:after, .clearfix:after {
+	content: " ";
+	display: table;
+}
+.container:after, .clearfix:after {
+  clear: both;	
+}

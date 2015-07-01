@@ -1,0 +1,74 @@
+.navigation{
+	list-style: none;
+	background: #f7f7f7;
+	margin: 0;
+	padding: 0;
+/*	overflow: hidden;*/
+}
+.navigation__item{
+	float: left;
+	display: inline-block;
+	color: #00b9fe;
+	height: 16px;
+	background: #f7f7f7;
+	margin: 0 16px 0 0;
+	padding: 15px 0 15px 15px;
+}
+.navigation__item:hover{
+	background: #00b9fe;
+}
+.navigation__item:hover:before {
+	border-color: #00b9fe;
+}
+.navigation__item:hover:after{
+	border-left-color: #00b9fe;
+}
+.navigation__item:first-child{
+	margin-left: 0;
+}
+.navigation__item:first-child:before{
+	border: 0;
+}
+.navigation__item:last-child{
+	padding-left: 15px;
+	margin-right: 0;
+}
+.navigation__item:after{
+	content:'';
+	float: left;
+	font-size: 0;
+	position: relative;
+	width:0;
+	height: 0;
+	border-left: 15px solid #f7f7f7;
+	border-top: 23px solid transparent;
+	border-bottom: 23px solid transparent;
+	border-right: 0;
+	z-index: 1;
+	top: -15px;
+	left: 100%;
+}
+.navigation__item:before{
+	content:'';
+	position: relative;
+	float: left;
+	font-size: 0;
+	width:0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 0;
+	border-top: 23px solid #f7f7f7;
+	border-bottom: 23px solid #f7f7f7;
+	background: #d5dde9;
+	z-index: 0;
+	top: -15px;
+	left: 0;
+	margin-left: -30px;
+	padding-right: 15px; 
+}
+.navigation__itemLink{
+	text-decoration: none;
+	font-family: 'elektra_light_proregular';
+	font-size: 13px;
+	margin-left: -15px;
+}
