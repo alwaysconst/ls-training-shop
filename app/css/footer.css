@@ -7,3 +7,60 @@
 	font-family: '';
 	font-size: 13px;
 }
+.footer__logoWhite{
+	display: inline-block;
+	float: left;
+	position: relative;
+	height: 228px;
+	width: 140px;
+	margin: 0 120px 0 0;
+}
+.logoWhite{
+	position: relative;
+	top: 45%;
+	bottom: 55%;
+	left: 0;
+}
+.footer__navigation{
+	display: inline-block;
+	margin-top: 60px;
+}
+.footer__navigation__list{
+	list-style: none;
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	width: 140px;
+	margin-right: 20px;
+	font-family: 'elektra_light_proregular';
+	font-size: 15px;
+	color: #fff;
+}
+.footer__navigation__title{
+	font-weight: bold;
+}
+.footer__navigation__item{
+	padding: 4px 0;
+}
+.footer__navigation__link{
+	color: #fff;
+}
+.footer__buttons{
+	display: inline-block;
+	float: right;
+	width: 190px;
+	margin-top: 60px;
+}
+.footer__appButtons{
+	display: block;
+}
+.footer__appButtons-item{
+	display: inline-block;
+	float: right;
+	margin: 0 0 27px 5px;
+}
+.footer__socials{
+	display: inline-block;
+	position: relative;
+	margin-left: -5px;
+}

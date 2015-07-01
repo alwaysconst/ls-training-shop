@@ -31,3 +31,46 @@ html {
 .container:after, .clearfix:after {
   clear: both;	
 }
+.content{
+	s
+}
+.product{
+	margin-bottom: 50px;
+}
+.section{
+	display: inline-block;
+	font-family: 'elektra_light_proregular';
+	font-size: 15px;
+	color: #5c7b98;
+}
+.aboutProduct--wrapper{
+	width: 673px;
+	height: 350px;
+	float: right;
+}
+.aboutProduct{
+	width: 500px;
+	height: auto;
+	float: left;
+}
+.aboutProduct__item1, .aboutProduct__item2{
+	display: inline-block;
+	float: left;
+	width: 240px;
+	font-weight: bold;
+	padding: 5px;
+}
+.aboutProduct__item2{
+	background: #eef2f4;
+}
+.content__aboutShop_title{
+	font-family: 'elektra_light_probold';
+	font-size: 25px;
+	color: #5c7b98;
+	margin: 0 0 10px 0;
+}
+.aboutShop_item{
+	width: 300px;
+	margin: 0 30px 30px 0;
+
+}

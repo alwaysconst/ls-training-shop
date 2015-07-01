@@ -1,0 +1,21 @@
+.breadcrumbs{
+	padding: 20px 0;
+	font-family: 'elektra_light_proregular';
+	font-size: 13px;
+	color: #5c7b98;
+}
+.breadcrumbs__list{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.breadcrumbs__item{
+	display: inline-block;
+}
+.breadcrumbs__itemLink{
+	color: #00b9fe;
+}
+.breadcrumbs__itemLink.active{
+	color: #5c7b98;
+	text-decoration: none;
+}

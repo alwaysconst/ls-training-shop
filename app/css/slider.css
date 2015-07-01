@@ -1,0 +1,104 @@
+.slider__wrapper{
+	width: 300px;
+	float: left;
+	overflow: hidden;
+}
+.slider{}
+.slider__display{
+	height: 250px;
+	widows: 300px;
+	overflow: hidden;
+}
+.slider__displayImg{
+	display: block;
+	position: relative;
+	width: auto;
+	height: 100%;
+}
+.slider__list{
+	list-style: none;
+	padding: 0 30px;
+	margin: 10px 0;
+	height: 80px;
+	width: 1000px;
+}
+.slider__item{
+	display: inline-block;
+	margin-right: 10px;
+	width: 75px;
+	height: 75px;
+	overflow: hidden;
+}
+.slider__item:last-child{
+	margin-right: 0;
+}
+.slider__img img{
+	display: block;
+	position: relative;
+	width: auto;
+	height: 100%;
+}
+.slider__button{
+	position: relative;
+	display: block;
+	vertical-align: middle;
+	background: #fff;
+	width: 30px;
+	height: 80px;
+	margin-top: -96px;
+	color: #ccc;
+}
+.slider__button.left{
+	float: left;
+}
+.slider__button.right{
+	float: right;
+}
+.slider__buttonPrev{
+	display: block;
+	float: left;
+	width: 15px;
+	padding: 8px 0 6px 0;
+	margin: 25px 0 0 10px;
+	background: #00b9fe;
+	color: #fff;
+	text-align: left;
+	font-family: 'elektra_light_probold';
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.slider__buttonPrev:before{
+	content: '';
+	position: absolute;
+	border-right: 8px solid #00b9fe;
+	border-left:0;
+	border-top: 16px solid transparent;
+	border-bottom: 16px solid transparent;
+	margin: -8px 0 0 -8px;
+	font-size: 0;
+}
+.slider__buttonNext{
+	display: block;
+	float: right;
+	width: 15px;
+	padding: 8px 0 6px 0;
+	margin: 25px 10px 0 0;
+	background: #00b9fe;
+	color: #fff;
+	text-align: right;
+	font-family: 'elektra_light_probold';
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.slider__buttonNext:after{
+	content: '';
+	position: absolute;
+	border-left: 8px solid #00b9fe;
+	border-right:0;
+	border-top: 16px solid transparent;
+	border-bottom: 16px solid transparent;
+	margin: -8px 0;
+	font-size: 0;
+}
