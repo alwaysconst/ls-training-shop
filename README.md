@@ -4,7 +4,7 @@ How to install
 2) Type in console:<br>
 <p>
 git clone https://github.com/most-effect/dz2.beecoder.git<br>
-cd shop.beecoder<br>
+cd dz2.beecoder<br>
 npm i<br>
 bower i<br>
 gulp
